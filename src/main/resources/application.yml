@@ -1,0 +1,24 @@
+server:
+  port: 8989
+  context-path: /springboot-common-mapper
+  jsp-servlet:
+    init-parameters:
+      development: true
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  profiles:
+    active: oracl
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+mybatis:
+  type-aliases-package: com.baizhi.entity
+
+
+
+
+
